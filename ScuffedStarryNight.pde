@@ -39,7 +39,7 @@ pg.save("StarryNightOtLevche_" + i + ".png");
 exit();
 }
 
-//Рисуване на цвете
+//Рисуване на цвете (The Chat helped with this one)
 void drawFlower(PGraphics pg, float x, float y, float radius1, float radius2, int npoints)
 {
 float angle = TWO_PI / npoints;
